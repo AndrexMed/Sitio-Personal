@@ -55,11 +55,24 @@ font-size: 30px;
 .header2 nav{
     line-height: 100px;
 }
-.prueba img {
+.selfie img {
     width: 30%;
    border-radius: 100%;
-   margin-top: 10%;
+   /* margin-top: 0; */
    float: right;
+}
+.piedepag{
+background-color: lightgray;
+color: black;
+margin-left: 5%;
+margin-right: 5%;
+height: 150px;
+border-radius: 20px;
+text-align: center;
+margin-top: 1%;
+}
+.acerca{
+    margin-top: 5%;
 }
 /* p{
     float: left;
