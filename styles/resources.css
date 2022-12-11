@@ -1,0 +1,43 @@
+.padre{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+.contenidoUno{
+    border: 2px solid black;
+    width: 40%;
+
+    border-radius: 1%;
+   padding: 1%;
+   background-color: #d8d8c0;
+}
+.contenidoUno h1{
+    text-align: center;
+}
+.ats{
+    border: 1px dashed black;
+    margin: auto;
+    width: 90%;
+}
+.contenidoDos{
+    border: 2px solid black;
+    width: 40%;
+
+    border-radius: 1%;
+    padding: 1%;
+    background-color: #d8d8c0;
+}
+
+@media (max-width: 800px) {
+    .padre {
+      flex-direction: column;
+      
+    }
+    .contenidoDos{
+        width: auto;
+    }
+    .contenidoUno{
+        width: auto;
+    }
+  }
