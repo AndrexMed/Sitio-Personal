@@ -68,6 +68,9 @@ font-size: 30px;
    float: right;
    border: 2px dashed black;
 }
+.gio{
+    text-shadow: 2px 2px 5px red;
+}
 .piedepag{
     border: 1px solid black;
 background-color: lightgray;
@@ -86,6 +89,8 @@ margin-bottom: 1%;
     width: 60%;
     border-radius: 1%;
     padding: 1%;
+    box-shadow: 5px 5px 5px #839cb5 inset;
+
 }
 /* p{
     float: left;
