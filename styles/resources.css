@@ -15,6 +15,9 @@
 .contenidoUno h1{
     text-align: center;
 }
+.contenidoUno:hover{
+    border-color: #839cb5;
+}
 .ats{
     border: 1px dashed black;
     margin: auto;
@@ -28,7 +31,13 @@
     padding: 1%;
     background-color: #d8d8c0;
 }
-
+.contenidoDos:hover{    
+    border-color: #839cb5;
+}
+footer .correo {
+    display: flex;
+    
+}
 @media (max-width: 800px) {
     .padre {
       flex-direction: column;

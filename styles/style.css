@@ -68,8 +68,29 @@ font-size: 30px;
    float: right;
    border: 2px dashed black;
 }
+.selfie img:hover{
+    border-color: #839cb5;
+}
+.selfie img:active{
+    border-color: #1d0af8;
+}
 .gio{
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 1px 1px lightblue;
+    text-align: center;
+}
+.gio:hover{
+    font-size: 25px;
+}
+.acerca{
+    margin-top: 5%;
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 1%;
+    padding: 1%;
+    box-shadow: 3px 3px 3px #839cb5;
+}
+.acerca:hover{
+    border-color: #839cb5;
 }
 .piedepag{
     border: 1px solid black;
@@ -83,14 +104,8 @@ text-align: center;
 margin-top: 1%;
 margin-bottom: 1%;
 }
-.acerca{
-    margin-top: 5%;
-    border: 1px solid black;
-    width: 60%;
-    border-radius: 1%;
-    padding: 1%;
-    box-shadow: 5px 5px 5px #839cb5 inset;
-
+.correo{
+    margin-top: 2%;
 }
 /* p{
     float: left;
