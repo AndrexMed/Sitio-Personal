@@ -12,6 +12,10 @@ main{
     margin-left: 1%;
     margin-right: 1%;
 }
+.logo a{
+    text-decoration: none;
+    color: white;
+}
 header{
         width: 100%;
         overflow: hidden;
@@ -60,6 +64,9 @@ font-size: 30px;
 }
 .header2 nav{
     line-height: 100px;
+}
+.contenido p{
+    margin-bottom: 1em;
 }
 .selfie img {
     width: 30%;
@@ -110,3 +117,37 @@ margin-bottom: 1%;
 /* p{
     float: left;
 } */
+.formulario{
+    border: 1px solid black;
+}
+form{
+    margin: 40px 0;
+}
+.formulario form label{
+display: block;
+font-size: 20px;
+margin: 0 0 10px;
+}
+.formulario form input{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 5px 20px;
+    }
+
+@media screen and (max-width: 950px){
+    header .logo,
+    header nav{
+        width:100%;
+        text-align:center;
+        line-height: 100px;
+    }
+    .header2{
+        height: auto;
+    }
+    .header2 .logo,
+    .header2 nav
+    {
+        line-height: 50px;
+    }
+}
